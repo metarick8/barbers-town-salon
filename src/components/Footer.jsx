@@ -1,6 +1,7 @@
 import { useLanguage } from "../contexts/LanguageContext";
 import config from "../config";
 import configAr from "../config-ar";
+import logo from "../assets/Barber's town shop logo.png";
 
 export default function Footer() {
     const { language, t } = useLanguage();
@@ -14,7 +15,11 @@ export default function Footer() {
                     {/* Brand */}
                     <div>
                         <div className="flex items-center gap-2 mb-4">
-                            <span className="text-2xl">💈</span>
+                            <img
+                                src={logo}
+                                alt={currentConfig.shopName}
+                                className="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105 sm:h-10"
+                            />
                             <span className="font-serif text-xl font-bold text-gradient">
                                 {currentConfig.shopName}
                             </span>
