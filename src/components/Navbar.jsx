@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { useLanguage } from "../contexts/LanguageContext";
 import config from "../config";
 import configAr from "../config-ar";
+import logo from "../assets/Barber's town shop logo.png";
 
 export default function Navbar() {
     const [scrolled, setScrolled] = useState(false);
@@ -35,8 +36,12 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
                 <a href="#" className="flex items-center gap-2 group">
-                    <span className="text-2xl">💈</span>
-                    <span className="font-serif text-xl font-bold text-gradient tracking-wide">
+                    <img
+                        src={logo}
+                        alt={currentConfig.shopName}
+                        className="h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105 sm:h-10"
+                    />
+                    <span className="font-serif text-lg sm:text-xl font-bold text-gradient tracking-wide">
                         {currentConfig.shopName}
                     </span>
                 </a>
