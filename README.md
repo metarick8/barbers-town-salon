@@ -31,7 +31,7 @@ A premium barber shop landing page built with React, Vite, and Tailwind CSS. Fea
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/barbers-town-salon.git
+git clone https://github.com/metarick8/barbers-town-salon.git
 cd barbers-town-salon
 ```
 
