@@ -23,8 +23,7 @@ const configAr = {
     address: "C38 شارع دروب الخير - الخالدية - W9",
     city: "أبو ظبي",
     country: "الإمارات",
-    googleMapsEmbed:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.174!2d54.3773!3d24.4539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDI3JzE0LjAiTiA1NMKwMjInMzguMyJF!5e0!3m2!1sen!2sae!4v1",
+    googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3631.174!2d54.3490349!3d24.4725325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e67b46d512465:0x284c5b4103ac7242!2sBarber%27s+Town+Salon!5e0!3m2!1sen!2sae!4v1",
     googleMapsLink: "https://www.google.com/maps/place/Barber's+Town+Salon/@24.4725325,54.34646,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5e67b46d512465:0x284c5b4103ac7242!8m2!3d24.4725325!4d54.3490349!16s%2Fg%2F11s4cfsvsd?hl=en-US&entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D",
 
     // ─── Working Hours ─────────────────────────────────
